@@ -21,7 +21,7 @@ While Loops:
 ```bash
 while [ <test>]
 	do
-		<command>
+	<command>
 done
 ```
 
@@ -32,7 +32,7 @@ this is more akin to a forEach() loop in JS since the loop number is automatical
 ```bash
 for var in <$list>
 	do
-		<commands>
+	<commands>
 done
 ```
 
@@ -43,7 +43,7 @@ More akin to the vanilla for loop in JS
 ```bash
 for value in {1..5}
 	do
-		echo $value
+	echo $value
 done
 ```
 
