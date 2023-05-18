@@ -20,8 +20,8 @@ While Loops:
 
 ```bash
 while [ <test>]
-	do
-	<command>
+  do
+  <command>
 done
 ```
 
@@ -31,8 +31,8 @@ this is more akin to a forEach() loop in JS since the loop number is automatical
 
 ```bash
 for var in <$list>
-	do
-	<commands>
+  do
+  <commands>
 done
 ```
 
@@ -42,8 +42,8 @@ More akin to the vanilla for loop in JS
 
 ```bash
 for value in {1..5}
-	do
-	echo $value
+  do
+  echo $value
 done
 ```
 
@@ -102,7 +102,7 @@ If Statement:
 
 ```bash
 if [ conditional ]; then
-	<command>
+  <command>
 fi
 ```
 
@@ -110,9 +110,9 @@ If-else Statement:
 
 ```bash
 if [ conditional ]; then
-	<command>
-	else
-	<command>
+  <command>
+  else
+  <command>
 fi
 ```
 
@@ -121,10 +121,10 @@ If-elif-else Statement:
 ```bash
 if [ conditional ]; then
   <command>
-	elif [ conditional ]; then 
-	<command>
-	else
-	<command>
+    elif [ conditional ]; then 
+    <command>
+    else
+    <command>
 fi
 ```
 
@@ -138,7 +138,7 @@ There are two ways to declare functions in bash:
 
 ```bash
 function_name() {
-	<commands>
+  <commands>
 }
 ```
 
@@ -146,7 +146,7 @@ function_name() {
 
 ```bash
 function function_name() {
-	<commands>
+  <commands>
 }
 ```
 
